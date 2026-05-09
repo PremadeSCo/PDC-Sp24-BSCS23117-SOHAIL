@@ -18,6 +18,7 @@ sh run.sh
 ### Windows 
 > Prefer linux because it's not tested on windows
 ```bash
+cd backend
 uvicorn src.app:app --workers 4 
 ```
 
