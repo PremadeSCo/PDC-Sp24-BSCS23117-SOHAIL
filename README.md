@@ -33,6 +33,8 @@ This should send two requests concurrently to the /api/generate-challenge endpoi
 Since these are almost sent at the same time one of them should result in 409 conflict. Previosuly both would be 200 but the later request would have silently overwritten the response 
 I'm using versioning technique
 
+> This fixes -> Problem 1 (Synchronization)
+
 ## Notes
 I modified the `generate_challenge_with_ai` to sleep for 2 seconds and just return a dummy response, since i don't have an openai API key. This si required for testing with my script
 
