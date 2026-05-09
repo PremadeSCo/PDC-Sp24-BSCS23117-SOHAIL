@@ -5,6 +5,9 @@
 ### Prereq
 
 ```bash
+git clone https://github.com/PremadeSCo/PDC-Sp24-BSCS23117-SOHAIL
+cd PDC-Sp24-BSCS23117-SOHAIL
+
 python3 -m venv myenv # or whatever python you have
 source myenv/bin/activate
 pip install -r requirements.txt
